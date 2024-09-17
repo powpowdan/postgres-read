@@ -33,7 +33,7 @@ app.use(express.static("public"));
 
 let currentQuestion = {};
 
-// GET home page
+// GET home page YOOOO
 app.get("/", async (req, res) => {
   totalCorrect = 0;
   await nextQuestion();
